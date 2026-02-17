@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-links {
+  font-size: 14px;
+}
+
 main {
   display: flex;
   flex-direction: column;
